@@ -10,21 +10,38 @@
 <form action="" method="get">
     <div class="form-group">
 <label class="text-input-label" for="username">სახელი</label>
-<input class="text-input"  type="text" username="pass" id="username" placeholder="ჩაწერეთ სახელი">
+<input class="text-input"  type="text" name="pass" id="username" placeholder="ჩაწერეთ სახელი">
  </div>
  <div class="form-group">
+        <label class="text-input-label" for="lastname">გვარი</label>
+        <input class="text-input"  type="text" name="lastname" id="lastname" placeholder="ჩაწერეთ გვარი">
+         </div>
+
+         <div class="form-group">
+            <label class="text-input-label"  for="date">დაბადების თარღი</label>
+            <input class="text-input"  type="date" name="date" id="date"  >
+            </div>
+            <div class="form-group">
+                <label class="text-input-label"  for="country">საცხოვრებელი ადგილი</label>
+                <select class="location">
+<option>საქართველო</option>
+<option>საფრანგეთი</option>
+<option>საბერძნეთი</option>
+<option>ბრაზილია</option>
+
+
+                </select>
+               
+  <div class="form-group">
 <label class="text-input-label"  for="pass">პაროლი</label>
-<input class="text-input"  type="text" name="pass" id="pass" placeholder="ჩაწერეთ პაროლი" >
+<input class="text-input"  type="password" name="pass" id="pass" placeholder="ჩაწერეთ პაროლი" >
 </div>
 
 <div class="form-group">
-    <label for="save">დამახსოვრება</label>
-    <input  type="checkbox" name="save" id="save"  >
-</div>
-
-<button class="submit-button">შესვლა</button>
-<a class="reset-pass-link" href="#">პაროლის აღდგენა</a>
-
+    <label class="text-input-label"  for="repass">გაიმეორეთ პაროლი</label>
+    <input class="text-input"  type="password" name="repass" id="repass" placeholder="გაიმეორეთ პაროლი" >
+    </div>
+<button class="btn btn-primary" >რეგისტრაცია</button>
 
 
 
